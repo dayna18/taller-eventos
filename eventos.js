@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-var div = document.querySelector('.contador');
+var div = document.getElementById('midiv');
 
-div.addEventListener('click', function() {
+midiv.addEventListener('click', function() {
     alert('Hola! Soy el div');
 });
 
